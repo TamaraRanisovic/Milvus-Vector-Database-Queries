@@ -1,0 +1,21 @@
+1. docker-compose up
+2. run products.py
+3. run sellers.py
+4. run metodi_vestiaire.py
+
+/test-milvus-connection/{collection_name}
+/get-entity-count/{collection_name}
+/collections/{collection_name}/delete_product/{product_id}
+/collections/{collection_name}/delete_seller/{seller_id}
+/collections/{collection_name}/getproductby_id/{product_id}
+/collections/{collection_name}/getseller_by_id/{seller_id}
+/collections/{collection_name}/add_product
+/collections/{collection_name}/add_seller
+/collections/{collection_name}/upsert_product
+/collections/{collection_name}/upsert_seller
+/query1/{collection_name}
+/query2
+/complex_query_1
+/complex_query_2
+/complex_query_3
+/complex_query_4
